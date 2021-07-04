@@ -1,0 +1,18 @@
+.truncate{
+  display:-webkit-box;
+  -webkit-line-clamp: 11;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height:290px;
+  text-overflow: ellipsis;
+}
+
+img{
+  height:150px;
+  object-fit: cover
+}
+
+.card-style{
+cursor: pointer;
+height: 100%
+}
